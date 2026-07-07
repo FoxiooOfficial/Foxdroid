@@ -11,6 +11,9 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
+  <remote  name="foxdroid"
+           fetch="https://github.com/FoxiooOfficial/" />
+
   <default revision="refs/heads/ics-release"
            remote="github"
            sync-j="4" />
@@ -31,6 +34,11 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="device/sample" name="device/sample" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="device/ti/panda" name="device/ti/panda" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+
+  <project path="device/lge/e400" name="LG-E400_Device" remote="foxdroid" revision="foxdroid-ics" />
+  <project path="kernel/lge/e400" name="LG-E400_Kernel" remote="foxdroid" revision="foxdroid-ics" />
+  <project path="vendor/lge" name="LG-E400_Vendor" remote="foxdroid" revision="foxdroid-ics" />
+
   <project path="external/android-mock" name="platform/external/android-mock" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="external/antlr" name="platform/external/antlr" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
@@ -140,7 +148,7 @@
   <project path="external/srtp" name="platform/external/srtp" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" />
   <project path="external/strace" name="CyanogenMod/android_external_strace" />
-  <project path="external/svox" name="CyanogenMod/android_external_svox" />
+  <project path="external/svox" name="platform/external/svox" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="external/tagsoup" name="CyanogenMod/android_external_tagsoup" />
   <project path="external/tcpdump" name="CyanogenMod/android_external_tcpdump" />
   <project path="external/tinyalsa" name="platform/external/tinyalsa" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
