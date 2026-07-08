@@ -1,4 +1,4 @@
-CyanogenMod
+Foxdroid (Modified CyanogenMod)
 ===========
 
 Submitting Patches
@@ -31,7 +31,7 @@ familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
 To initialize your local repository using the CyanogenMod trees, use a command like this:
 
-    repo init -u git://github.com/CyanogenMod/android.git -b ics
+    repo init -u git://github.com/Foxioo/foxdroid.git -b ics
 
 Then to sync up:
 
