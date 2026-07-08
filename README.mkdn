@@ -1,4 +1,4 @@
-Foxdroid (Modified CyanogenMod)
+Foxdroid - ROM based on the CyanogenMod 9 source code.
 ===========
 
 Submitting Patches
