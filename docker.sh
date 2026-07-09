@@ -2,6 +2,7 @@
 
 CONTAINER_NAME="foxdroid-build"
 
+
 if sudo docker ps -a --format '{{.Names}}' | grep -q "^${CONTAINER_NAME}$"; then
     echo "Loading container ^${CONTAINER_NAME}$..."
     sudo docker start -ai "$CONTAINER_NAME"
