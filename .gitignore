@@ -1,4 +1,4 @@
 out/
 prebuilt/
-
-status.sh
+coreutils_/
+status.sh.repo/
