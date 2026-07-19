@@ -31,7 +31,7 @@ familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
 To initialize your local repository using the CyanogenMod trees, use a command like this:
 
-    repo init -u git://github.com/FoxiooOfficial/foxdroid.git -b foxdroid-ics
+    repo init -u git://github.com/FoxiooOfficial/foxdroid.git -b foxdroid-pancake
 
 Then to sync up:
 
